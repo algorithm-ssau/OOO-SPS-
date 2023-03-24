@@ -34,7 +34,7 @@ h3{
 .container{
     margin-right: 150px;
     width: 1140px;
-    /*позиционирование по центру*/
+    /*РїРѕР·РёС†РёРѕРЅРёСЂРѕРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ*/
     margin: 0 auto;
     padding-top: 30px;
 }
@@ -185,4 +185,133 @@ ul, li {
 }
 #name-item{
     margin-bottom: 20px;
+}
+.calculator{
+    margin-top: 90px;
+}
+.name-calculators{
+    margin: 0 auto;
+    background: url(../img/h1_services1.svg) no-repeat center top/cover;
+    width: 415px;
+    padding: 10px 20px 10px 8px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.calculators{
+    display: flex;
+}
+.calculator-content{
+    padding-top: 46px;
+    margin: 0 auto;
+    width: 457px;
+    background: #FFFFFF;
+    box-shadow: 6px 4px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 28px;
+    text-align: center;
+}
+.calculator-content h2{
+    margin-bottom: 30px;
+}
+.input__box {
+    width: 259px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.name__input{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #2F2F2F;
+    color: #2F2F2F;
+    border-radius: 9px;
+}
+.name__input_label{
+    position: absolute;
+    color: #2F2F2F;
+    top: -10px;
+    left: 20px;
+    background: #fff;
+    padding: 0 5px;
+}
+.btn{
+    background: url(../img/btn.svg) no-repeat center top/cover;
+    font-size: 19px;
+    line-height: 150%;
+    padding: 18px 42px;
+    color: #FD600F;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    color:white;
+    background: #FD600F;
+    border-radius: 6px;
+}
+.btn-calculator{
+    margin-top: 30px;
+    text-align: center;
+}
+.result{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.result p{
+    text-decoration: underline;
+}
+.communications{
+    margin-top: 90px;
+}
+.communications h2{
+    background: url(../img/name-communications.svg) no-repeat center top/cover;
+    width: 129px;
+    height: 33px;
+    padding-left: 12px;
+    margin-bottom: 32px;
+}
+.points{
+    margin-left: 12px;
+}
+.point p{
+    margin-bottom: 19px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130.02%;
+}
+.point:not(:first-child){
+    margin-top: 35px;
+}
+.point a{
+    display: block;
+}
+.communications-content{
+    display: flex;
+}
+.map{
+    width: 683px;
+    margin-left: auto;
+}
+.footer{
+    margin-top: 90px;
+    background: #333333;
+    height: 120px;
+}
+.footer img{
+    width: 67px;
+}
+.footer-content{
+    display: flex;
+}
+.footer-content .tel{
+    margin-left: 94px;
+}
+.footer-content a{
+    color: white;
+}
+.lang{
+    margin-left: auto;
+    margin-top: 20px;
+}
+.footer-input{
+    margin-top: 20px;
 }
