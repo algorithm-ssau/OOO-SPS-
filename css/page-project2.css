@@ -115,3 +115,106 @@ ul, li {
     width: 99px;
     height: 99px;
 }
+
+.offer{
+    margin-top: 130px;
+    display: flex;
+}
+.main-banner{
+    width: 584px;
+    filter: drop-shadow(3px 4px 12px rgba(0, 0, 0, 0.15));
+    margin-right: auto;
+}
+.offer-text{
+    margin-top: 86px;
+    padding: 0;
+    display: block;
+    margin-right: auto;
+}
+.offer-text p{
+    margin-top: 37px;
+    width: 357px;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 45px;
+}
+.name-project{
+    margin-top: 80px;
+    background: url(../img/h1_services1.svg) no-repeat center top/cover;
+    width: 372px;
+    padding: 10px 16px 10px 8px;
+    text-align: center;
+}
+.about-us{
+    margin-top: -30px;
+}
+.about-us h2{
+    padding: 4px 10px 1px 20px;
+    background: url(../img/about-activities.svg) no-repeat center top/cover;
+    width: 210px;
+}
+.content-about-us{
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 140%;
+}
+.item{
+    margin-right: 10px;
+}
+
+.communications{
+    margin-top: 90px;
+}
+.communications h2{
+    background: url(../img/name-communications.svg) no-repeat center top/cover;
+    width: 129px;
+    height: 33px;
+    padding-left: 12px;
+    margin-bottom: 32px;
+}
+.points{
+    margin-left: 12px;
+}
+.point p{
+    margin-bottom: 19px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130.02%;
+}
+.point:not(:first-child){
+    margin-top: 35px;
+}
+.point a{
+    display: block;
+}
+.communications-content{
+    display: flex;
+}
+.map{
+    width: 683px;
+    margin-left: auto;
+}
+.footer{
+    margin-top: 90px;
+    background: #333333;
+    height: 120px;
+}
+.footer img{
+    width: 67px;
+}
+.footer-content{
+    display: flex;
+}
+.footer-content .tel{
+    margin-left: 94px;
+}
+.footer-content a{
+    color: white;
+}
+.lang{
+    margin-left: auto;
+    margin-top: 20px;
+}
+.footer-input{
+    margin-top: 20px;
+}
