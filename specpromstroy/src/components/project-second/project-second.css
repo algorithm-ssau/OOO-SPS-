@@ -1,0 +1,229 @@
+.h2-white-space2{
+    white-space: nowrap;
+}
+.tel-margin-top2{
+    margin-top: 12px;
+}
+.email-margin-left2{
+    margin-left: 51px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+    color: #2F2F2F;
+    font-size: 18px;  
+    font-weight: 100;
+}
+h1,h2,h3,h4{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #2F2F2F;
+    font-weight: 300;
+}
+h1{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 140%;
+}
+h2{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 130.02%;
+}
+h3{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+.container2{
+    margin-right: 150px;
+    width: 1140px;
+    /*позиционирование по центру*/
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.header2{
+    height: 680px;
+}
+.menu-block2{
+    z-index: 1;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.6);
+    height: 120px;
+    position:fixed;
+    top:0;
+    width: 100%;
+}
+.logo2{
+    margin-right: 209px;
+    width: 70px;
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+.menu2{
+    display: flex;
+    border-bottom: 1px dolid transparent;
+}
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu2 li a {
+    font-size: 16px;
+    line-height: 130.02%;
+}
+.menu2 li:not(:last-child) {
+    margin-right: 56px;
+}
+.contacts2{
+    margin-left: auto;
+}
+.contacts2 a{
+    font-size: 15px;
+    line-height: 130.02%;
+    display: block;
+    transition: all 0.5s ease;
+}
+.menu2 a{
+    padding-bottom: 7px;
+    transition: all 0.5s ease;
+}
+.menu2 a:hover{
+    border-bottom: 1px solid rgba(47, 47, 47, 0.21);
+}
+.contacts2 a:hover{
+    font-weight: 600;
+}
+#myBtn2 {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    width: 77px;
+    height: 77px;
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background: url(../../../public/img/arrow_up.svg) no-repeat center top/cover;
+    color: white; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    transition: all 0.5s ease;
+}
+
+#myBtn2:hover {
+    width: 99px;
+    height: 99px;
+}
+.offer2{
+    margin-top: 130px;
+    display: flex;
+}
+.main-banner2{
+    width: 584px;
+    filter: drop-shadow(3px 4px 12px rgba(0, 0, 0, 0.15));
+    margin-right: auto;
+}
+.offer-text2{
+    margin-top: 86px;
+    padding: 0;
+    display: block;
+    margin-right: auto;
+}
+.offer-text2 p{
+    margin-top: 37px;
+    width: 357px;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 45px;
+}
+.name-project2{
+    margin-top: 80px;
+    background: url(../../../public/img/h1_services1.svg) no-repeat center top/cover;
+    width: 372px;
+    padding: 10px 16px 10px 8px;
+    text-align: center;
+}
+.about-us2{
+    margin-top: -30px;
+}
+.about-us2 h2{
+    padding: 4px 10px 1px 20px;
+    background: url(../../../public/img/about-activities.svg) no-repeat center top/cover;
+    width: 210px;
+}
+.content-about-us2{
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 140%;
+}
+.item2{
+    margin-right: 10px;
+}
+
+.communications2{
+    margin-top: 90px;
+}
+.communications2 h2{
+    background: url(../../../public/img/name-communications.svg) no-repeat center top/cover;
+    width: 129px;
+    height: 33px;
+    padding-left: 12px;
+    margin-bottom: 32px;
+}
+.points2{
+    margin-left: 12px;
+}
+.point2 p{
+    margin-bottom: 19px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 130.02%;
+}
+.point2:not(:first-child){
+    margin-top: 35px;
+}
+.point2 a{
+    display: block;
+}
+.communications-content2{
+    display: flex;
+}
+.map2{
+    width: 683px;
+    margin-left: auto;
+}
+.footer2{
+    margin-top: 90px;
+    background: #333333;
+    height: 120px;
+}
+.footer2 img{
+    width: 67px;
+}
+.footer-content2{
+    display: flex;
+}
+.footer-content2 .tel2{
+    margin-left: 94px;
+}
+.footer-content2 a{
+    color: white;
+}
+.lang2{
+    margin-left: auto;
+    margin-top: 20px;
+}
+.footer-input2{
+    margin-top: 20px;
+}
