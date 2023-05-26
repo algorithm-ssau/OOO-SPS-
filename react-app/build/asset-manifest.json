@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ade7e8fc.css",
+    "main.js": "/static/js/main.725a6de7.js",
+    "static/media/section-services.png": "/static/media/section-services.7d83d572b719df656f4e.png",
+    "static/media/arrow_up.svg": "/static/media/arrow_up.6db55b5d99be70cd7797.svg",
+    "index.html": "/index.html",
+    "static/media/h1_services1.svg": "/static/media/h1_services1.84ed497c2e6b9b6f340d.svg",
+    "static/media/name-progects.svg": "/static/media/name-progects.444d3744408083e6f2b8.svg",
+    "static/media/btn.svg": "/static/media/btn.2db050192c0557c6ed18.svg",
+    "static/media/about-activities.svg": "/static/media/about-activities.9e962c8aefb455cfab83.svg",
+    "static/media/name-communications.svg": "/static/media/name-communications.9c0a4f91ea996bc51ecb.svg",
+    "static/media/name-about-us.svg": "/static/media/name-about-us.adb094988b27bf9f2b9f.svg",
+    "static/media/name-services.svg": "/static/media/name-services.16fed44e94fb7c308465.svg",
+    "main.ade7e8fc.css.map": "/static/css/main.ade7e8fc.css.map",
+    "main.725a6de7.js.map": "/static/js/main.725a6de7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade7e8fc.css",
+    "static/js/main.725a6de7.js"
+  ]
+}
